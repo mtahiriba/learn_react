@@ -23,8 +23,8 @@ const Counter = (props) => {
         <h1>Developer: {props.name} </h1>
         <h1>count: {count}</h1>
         <div className='flex gap-5'>
-            <Button placeholder="Increment" handler={increment} />
-            <Button placeholder="Decrement" handler={decrement}/>
+            <Button placeholder="Increment" handler={increment} type={"primary"}/>
+            <Button placeholder="Decrement" handler={decrement} type={"primary"}/>
         </div>
     </div>
   )
