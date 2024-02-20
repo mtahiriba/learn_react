@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./Card";
-import ProductsList from "../../../Content/Products/index";
+import { ProductsList } from "../../../Content";
 
 const Products = () => {
   return (
