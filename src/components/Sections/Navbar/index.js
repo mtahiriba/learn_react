@@ -21,11 +21,6 @@ const Navbar = ({ logo, items }) => {
           <Menu items={items} />
         </div>
         <div className="flex items-center">
-          {/* {isLogin === false ? (
-            <Button placeholder={"Login In"} handler={handler} type={"danger"}/>
-          ) : (
-            <Button placeholder={"Login Out"} handler={handler}/>
-          )} */}
           <Link to={"/login"}>
             <Button
               placeholder={"Login In"}

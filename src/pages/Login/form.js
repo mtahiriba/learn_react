@@ -21,7 +21,7 @@ const Form = () => {
     };
 
     const handleEmail = (e) => {
-        setEmail(e.target.value);
+      setEmail(e.target.value);
     }
 
     const handlePassword = (e) => {
